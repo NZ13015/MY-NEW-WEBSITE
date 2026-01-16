@@ -29,6 +29,10 @@ body{
     background: teal;
     font-size: 24px;
 }
+.box{
+    display: flex ;
+    justify-content: space-around;
+}
 }
     nav{    
     display:flex;
@@ -53,6 +57,27 @@ body{
 .head{
     justify-content: center;
     display: flex;
+}
+.h1{
+     background: no-repeat;
+   color: #fff;
+   padding: 1rem 0;
+   *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+}
+.h1{
+     color: #fff;
+    text-decoration: none;
+    margin-left: 1rem
+}
+.h1{
+    background-attachment: fixed;
+    background-repeat: round;
+    background-clip: content-box;
 }
 
 
